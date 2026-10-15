@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ayath: Offline Quran App with Hifz Coach and Prayer Times</title>
+<meta name="description" content="Ayath is a calm, offline Quran app for Android. Read page by page, check your hifz privately on your phone with Hifz Coach, and get prayer times and Qibla. No ads, no account.">
+<link rel="canonical" href="https://olivelampstudio.github.io/ayath/">
+<meta name="theme-color" content="#121845">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ayath">
+<meta property="og:title" content="Ayath: offline Quran, private Hifz checks and prayer times">
+<meta property="og:description" content="Read page by page, check your hifz privately on your phone, and pray on time. No ads, no account.">
+<meta property="og:url" content="https://olivelampstudio.github.io/ayath/">
+<meta property="og:image" content="https://olivelampstudio.github.io/ayath/assets/og-image.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Ayath emblem over a dawn sky: offline Quran, private Hifz checks and prayer times.">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/icon-192.png">
+<link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="preload" href="assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/manrope-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/img/dawn.webp" as="image" type="image/webp">
+<link rel="stylesheet" href="assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
+<script defer src="assets/site.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://olivelampstudio.github.io/ayath/#publisher",
+      "name": "Olivelamp Studio",
+      "email": "olivelampstudio@gmail.com",
+      "logo": "https://olivelampstudio.github.io/ayath/assets/img/logo-512.png"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://olivelampstudio.github.io/ayath/#website",
+      "url": "https://olivelampstudio.github.io/ayath/",
+      "name": "Ayath",
+      "inLanguage": "en",
+      "publisher": {"@id": "https://olivelampstudio.github.io/ayath/#publisher"}
+    },
+    {
+      "@type": "MobileApplication",
+      "@id": "https://olivelampstudio.github.io/ayath/#app",
+      "name": "Ayath",
+      "alternateName": "Ayath: Quran, Hifz & Prayer",
+      "description": "A calm, offline Quran app for Android: page-by-page mushaf reading, Hifz Coach that checks your recitation on the phone, prayer times, Qibla, daily duas and home-screen widgets. No ads and no account.",
+      "url": "https://olivelampstudio.github.io/ayath/",
+      "operatingSystem": "Android",
+      "applicationCategory": "LifestyleApplication",
+      "isAccessibleForFree": true,
+      "inLanguage": ["en", "ar", "ur", "hi", "bn", "ml", "kn", "id", "tr", "fr"],
+      "image": "https://olivelampstudio.github.io/ayath/assets/img/logo-512.png",
+      "screenshot": [
+        "https://olivelampstudio.github.io/ayath/assets/02_hifz_result.webp",
+        "https://olivelampstudio.github.io/ayath/assets/05_reader.webp",
+        "https://olivelampstudio.github.io/ayath/assets/06_salah.webp",
+        "https://olivelampstudio.github.io/ayath/assets/04_home_widgets.webp"
+      ],
+      "featureList": [
+        "Hifz Coach: recite with the text hidden and see which words to check again, checked offline on the phone",
+        "Page-wise mushaf reading with translation and optional tajweed colours",
+        "Four separate Reading Lanes: Khatam, Quick Surah, Study and Memorization",
+        "Recite to find a verse, on the phone",
+        "Prayer times with your chosen calculation method and Asr, prayer reminders and Qibla",
+        "Hijri calendar and a Ramadan companion",
+        "Daily duas from Hisn al-Muslim, a hadith of the day, the 99 Names, Tasbih and a Zakat estimate",
+        "Ten home-screen widgets",
+        "Ten languages, text up to 200% and screen reader labels",
+        "No ads, no account and no analytics"
+      ],
+      "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD", "category": "free"},
+      "publisher": {"@id": "https://olivelampstudio.github.io/ayath/#publisher"}
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://olivelampstudio.github.io/ayath/#faq",
+      "mainEntity": [
+        {"@type": "Question", "name": "Is Ayath free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. The whole Quran and every translation, prayer times and reminders, Qibla, duas, hadith, Tasbih, your revision plan, every Juz 'Amma Hifz Coach check and one of every widget are free. Ayath Pro is optional and adds unlimited Hifz Coach checks, every widget design, more themes and private reading insights."}},
+        {"@type": "Question", "name": "Does Ayath work offline?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Reading, prayer times, Qibla, duas and Hifz Coach checks work without the internet. Ayath goes online only when you stream or save a recitation, download the speech model once, or buy Pro through Google Play."}},
+        {"@type": "Question", "name": "Is my voice recorded or uploaded?", "acceptedAnswer": {"@type": "Answer", "text": "No. Hifz Coach compares your recitation with the Quran text using a speech model on your phone. Your voice is held in memory only for that check and is never saved, uploaded or shared."}},
+        {"@type": "Question", "name": "Does Hifz Coach check tajweed?", "acceptedAnswer": {"@type": "Answer", "text": "No. Hifz Coach is a reading aid that shows which words to check again. It is not a judgement of tajweed. Your teacher and the mushaf remain the authority."}},
+        {"@type": "Question", "name": "Which languages does Ayath support?", "acceptedAnswer": {"@type": "Answer", "text": "English, Arabic, Urdu, Hindi, Bengali, Malayalam, Kannada, Indonesian, Turkish and French."}},
+        {"@type": "Question", "name": "When can I get Ayath?", "acceptedAnswer": {"@type": "Answer", "text": "Ayath is coming soon to Google Play for Android. You can join the early test by emailing olivelampstudio@gmail.com."}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body class="home">
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <clipPath id="arch" clipPathUnits="objectBoundingBox">
+      <path d="M0,1 L0,0.36 C0,0.2 0.22,0.09 0.5,0 C0.78,0.09 1,0.2 1,0.36 L1,1 Z"/>
+    </clipPath>
+    <symbol id="star8" viewBox="0 0 24 24"><path d="M12 1.5l2.5 4.6 5-1.5-1.5 5 4.5 2.4-4.5 2.4 1.5 5-5-1.5L12 22.5l-2.5-4.6-5 1.5 1.5-5L1.5 12l4.5-2.4-1.5-5 5 1.5z"/></symbol>
+  </defs>
+</svg>
+
+<header class="topbar" data-topbar>
+  <div class="topbar-inner">
+    <a class="brand" href="./" aria-label="Ayath home"><img src="assets/img/emblem.webp" alt="" width="40" height="40"><span>Ayath</span></a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="#hifz">Hifz Coach</a>
+      <a href="#quran">Quran</a>
+      <a href="#prayer">Prayer</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#free-and-pro">Free and Pro</a>
+    </nav>
+    <a class="topbar-cta" href="mailto:olivelampstudio@gmail.com?subject=Ayath%20early%20test">Join the test</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>
+      <span class="sr-only">Menu</span><span class="menu-bars" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- FAJR -->
+  <section class="sky fajr tone-dark hero" aria-labelledby="hero-title">
+    <div class="stars" aria-hidden="true"></div>
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow load" style="--d:0">Quran · Hifz · Prayer</p>
+        <h1 id="hero-title" class="display load" style="--d:1">A calm, offline companion for the Quran.</h1>
+        <p class="lede load" style="--d:2">Read page by page, check your hifz privately with
+          <strong>Hifz Coach</strong>, and pray on time with prayer times and Qibla worked out
+          on your phone. No ads, no account, and your voice never leaves your phone.</p>
+        <div class="actions load" style="--d:3">
+          <a class="btn btn-gold" href="mailto:olivelampstudio@gmail.com?subject=Ayath%20early%20test">Join the early test</a>
+          <a class="btn btn-ghost" href="#hifz">See Hifz Coach</a>
+        </div>
+        <p class="soon load" style="--d:4"><svg class="i-star" aria-hidden="true"><use href="#star8"/></svg> Coming soon to Google Play for Android</p>
+      </div>
+
+      <div class="hero-art load" style="--d:2" aria-hidden="true">
+        <svg class="rosette" viewBox="0 0 400 400">
+          <circle class="draw" pathLength="1" cx="200" cy="200" r="196"/>
+          <circle class="draw" pathLength="1" cx="200" cy="200" r="186"/>
+          <polygon class="draw" pathLength="1" points="200.0,20.0 327.3,327.3 20.0,200.0 327.3,72.7 200.0,380.0 72.7,72.7 380.0,200.0 72.7,327.3"/>
+          <polygon class="draw" pathLength="1" points="268.9,33.7 268.9,366.3 33.7,131.1 366.3,131.1 131.1,366.3 131.1,33.7 366.3,268.9 33.7,268.9"/>
+          <polygon class="draw" pathLength="1" points="200.0,88.0 279.2,279.2 88.0,200.0 279.2,120.8 200.0,312.0 120.8,120.8 312.0,200.0 120.8,279.2"/>
+          <polygon class="draw" pathLength="1" points="226.8,135.3 264.7,173.2 264.7,226.8 226.8,264.7 173.2,264.7 135.3,226.8 135.3,173.2 173.2,135.3"/>
+          <circle class="draw" pathLength="1" cx="200" cy="200" r="44"/>
+        </svg>
+        <div class="arch-window">
+          <img src="assets/img/dawn.webp" width="720" height="1080" alt="" data-parallax="-0.06">
+        </div>
+        <img class="hero-emblem" src="assets/img/emblem.webp" width="192" height="192" alt="">
+      </div>
+    </div>
+    <ul class="trust wrap load" style="--d:5" aria-label="At a glance">
+      <li>Works offline</li>
+      <li>No ads in worship</li>
+      <li>No account</li>
+      <li>Ten languages</li>
+      <li>Text up to 200%</li>
+    </ul>
+  </section>
+
+  <!-- SUNRISE: QURAN -->
+  <section id="quran" class="sky sunrise tone-light" aria-labelledby="quran-title">
+    <div class="wrap split">
+      <div class="copy" data-reveal>
+        <p class="eyebrow"><span class="time">Sunrise</span> Quran</p>
+        <h2 id="quran-title" class="display">Read the Quran page by page.</h2>
+        <p>Page-wise mushaf reading, with the translation beneath and tajweed colours you can
+          turn on. Recite to find: say a verse and Ayath finds it, on your phone.</p>
+        <div class="lanes" data-reveal aria-label="Four Reading Lanes that never mix">
+          <p class="lanes-title">Four Reading Lanes that never mix</p>
+          <div class="lane" style="--p:.72;--t:7s"><span class="lane-name">Khatam</span><span class="lane-track"><span class="lane-mark"></span></span></div>
+          <div class="lane" style="--p:.18;--t:5s"><span class="lane-name">Quick Surah</span><span class="lane-track"><span class="lane-mark"></span></span></div>
+          <div class="lane" style="--p:.46;--t:9s"><span class="lane-name">Study</span><span class="lane-track"><span class="lane-mark"></span></span></div>
+          <div class="lane" style="--p:.31;--t:6s"><span class="lane-name">Memorization</span><span class="lane-track"><span class="lane-mark"></span></span></div>
+          <p class="lanes-note">Each keeps its own place, so a quick surah never moves your khatam.</p>
+        </div>
+      </div>
+      <div class="art" data-reveal>
+        <img src="assets/img/scene-quran.webp" width="900" height="526" loading="lazy" alt="" data-parallax="0.05">
+        <figure class="phone phone-tilt">
+          <img src="assets/05_reader.webp" width="540" height="960" loading="lazy" alt="The Ayath reader showing a full mushaf page.">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- DHUHR: HIFZ COACH -->
+  <section id="hifz" class="sky day tone-light" aria-labelledby="hifz-title">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow"><span class="time">Midday</span> Hifz Coach <span class="pill">Beta</span></p>
+        <h2 id="hifz-title" class="display">Recite with the text hidden. See which words to check again.</h2>
+      </div>
+      <div class="split hifz-split">
+        <div class="demo-wrap" data-reveal>
+          <div class="demo" data-hifz-demo role="img"
+            aria-label="Animation: words stay hidden while you recite, light up as they are heard, and two words are marked to check again.">
+            <div class="demo-top"><span>Hifz Coach</span><span class="demo-surah">Al-Mulk · 1–12</span></div>
+            <div class="demo-page" dir="rtl">
+              <div class="demo-header" aria-hidden="true"><span></span></div>
+              <div class="demo-line"><i style="--w:13"></i><i style="--w:12"></i><i style="--w:15"></i><i style="--w:19"></i><i style="--w:10"></i></div>
+              <div class="demo-line"><i style="--w:10"></i><i style="--w:21"></i><i style="--w:17"></i><i style="--w:10"></i><i style="--w:13"></i></div>
+              <div class="demo-line"><i style="--w:17"></i><i style="--w:10"></i><i style="--w:17"></i><i class="miss" style="--w:12"></i><i style="--w:10"></i></div>
+              <div class="demo-line"><i style="--w:10"></i><i style="--w:15"></i><i style="--w:15"></i><i style="--w:10"></i><i style="--w:12"></i></div>
+              <div class="demo-line"><i style="--w:10"></i><i style="--w:17"></i><i style="--w:15"></i><i style="--w:10"></i><i style="--w:21"></i></div>
+              <div class="demo-line"><i style="--w:17"></i><i style="--w:10"></i><i style="--w:12"></i><i style="--w:19"></i><i style="--w:19"></i></div>
+              <div class="demo-line"><i style="--w:17"></i><i class="miss" style="--w:10"></i><i style="--w:17"></i><i style="--w:17"></i><i style="--w:15"></i></div>
+              <div class="demo-line"><i style="--w:10"></i><i style="--w:12"></i><i style="--w:10"></i><i style="--w:17"></i><i style="--w:21"></i></div>
+              <div class="demo-line short"><i style="--w:12"></i><i style="--w:13"></i><i style="--w:15"></i></div>
+            </div>
+            <div class="demo-foot">
+              <span class="demo-status" data-status>Listening</span>
+              <span class="wave" aria-hidden="true"><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b><b></b></span>
+            </div>
+            <div class="demo-result">
+              <strong>2 words to check again</strong>
+              <span>Checked on this phone. Nothing was uploaded.</span>
+            </div>
+          </div>
+          <p class="demo-caption">An illustration of a check. The real screens are below.</p>
+        </div>
+        <div class="copy" data-reveal>
+          <ol class="steps" data-steps>
+            <li data-step="0"><span class="step-n">1</span><div><strong>Recite with the text hidden.</strong> Choose a page or a passage and start reciting from memory.</div></li>
+            <li data-step="1"><span class="step-n">2</span><div><strong>Checked on your phone.</strong> A speech model on the phone follows along. Your voice is never saved or uploaded. Try it in airplane mode.</div></li>
+            <li data-step="2"><span class="step-n">3</span><div><strong>See which words to check again.</strong> Revise just those, and keep a private list of words to revisit.</div></li>
+          </ol>
+          <ul class="ticks">
+            <li>A revision plan from where you are now: new lesson, recent revision and old revision.</li>
+            <li>Every Juz 'Amma check is free, plus 3 checks a week anywhere else in the Quran.</li>
+            <li>A "Today's revision" widget on your home screen.</li>
+          </ul>
+          <p class="note">Hifz Coach is a reading aid, not a judgement of tajweed. Your teacher
+            and the mushaf remain the authority.</p>
+        </div>
+      </div>
+
+      <div class="screens" data-reveal>
+        <figure class="phone"><img src="assets/01_hifz_reciting.webp" width="540" height="960" loading="lazy" alt="Reciting in Hifz Coach with the ayah text hidden."><figcaption>Reciting, text hidden</figcaption></figure>
+        <figure class="phone"><img src="assets/02_hifz_result.webp" width="540" height="960" loading="lazy" alt="A real Hifz Coach result for Al-Mulk 1 to 12 with two words marked to check again."><figcaption>A real result</figcaption></figure>
+        <figure class="phone"><img src="assets/03_hifz_home.webp" width="540" height="960" loading="lazy" alt="Hifz Coach home with today's revision plan."><figcaption>Today's revision plan</figcaption></figure>
+        <figure class="phone"><img src="assets/04_home_widgets.webp" width="540" height="960" loading="lazy" alt="Home screen with the Today's revision and prayer widgets."><figcaption>On your home screen</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ASR: PRAYER -->
+  <section id="prayer" class="sky asr tone-light" aria-labelledby="prayer-title">
+    <div class="wrap">
+      <div class="section-head center" data-reveal>
+        <p class="eyebrow"><span class="time">Afternoon</span> Prayer</p>
+        <h2 id="prayer-title" class="display">Prayer times and Qibla, calculated on your phone.</h2>
+      </div>
+      <div class="day-arc" data-arc aria-hidden="true">
+        <svg viewBox="0 0 1000 300" preserveAspectRatio="xMidYMax meet">
+          <path class="arc-path" d="M40,250 C200,-20 800,-20 960,250" fill="none"/>
+          <g class="arc-marks"></g>
+          <g class="arc-text"></g>
+          <circle class="arc-sun" r="18" cx="40" cy="250"/>
+        </svg>
+        <img class="arc-mosque" src="assets/img/scene-salah.webp" width="900" height="386" loading="lazy" alt="">
+      </div>
+      <div class="cards3" data-reveal>
+        <div class="card"><h3>Your method, your Asr</h3><p>Times follow the calculation method and Asr you choose, worked out on the phone from your location. No server.</p></div>
+        <div class="card"><h3>Reminders and Qibla</h3><p>Prayer reminders, a Qibla compass, the Hijri calendar and a Ramadan companion.</p></div>
+        <div class="card"><h3>Duas and daily tools</h3><p>Daily Duas from Hisn al-Muslim arranged by moment, a hadith of the day, the 99 Names, Tasbih and a Zakat estimate.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAGHRIB: HORIZON -->
+  <div class="horizon" aria-hidden="true" data-horizon>
+    <div class="sunset-sun" data-sunset></div>
+    <div class="skyline skyline-far"></div>
+    <div class="skyline skyline-near"></div>
+  </div>
+
+  <!-- DUSK: PRIVACY -->
+  <section id="privacy" class="sky dusk tone-dark" aria-labelledby="privacy-title">
+    <div class="wrap split">
+      <div class="copy" data-reveal>
+        <p class="eyebrow"><span class="time">Sunset</span> Privacy</p>
+        <h2 id="privacy-title" class="display">No ads. No account. Your voice stays on your phone.</h2>
+        <ul class="ticks">
+          <li>No analytics and no advertising inside the app.</li>
+          <li>Your reading, prayers and memorization stay on your phone.</li>
+          <li>No streaks, no leaderboards and never an ad in worship.</li>
+          <li>Optional backup goes to your own Google Drive, never to us.</li>
+        </ul>
+        <p><a class="link-arrow" href="privacy/">Read the privacy policy</a></p>
+      </div>
+      <div class="airplane" data-reveal data-airplane>
+        <div class="ap-card">
+          <div class="ap-row ap-switch"><span>Airplane mode</span><span class="switch" aria-hidden="true"><span></span></span></div>
+          <div class="ap-row ap-check"><span>Hifz Coach check</span><em>Still works</em></div>
+          <div class="ap-row ap-check"><span>Quran, page by page</span><em>Still works</em></div>
+          <div class="ap-row ap-check"><span>Prayer times and Qibla</span><em>Still work</em></div>
+          <div class="ap-row ap-check"><span>Duas and Tasbih</span><em>Still work</em></div>
+        </div>
+        <p class="demo-caption">Try it yourself: turn on airplane mode and recite.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ISHA: FREE AND PRO -->
+  <section id="free-and-pro" class="sky night tone-dark" aria-labelledby="plans-title">
+    <div class="stars dim" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="section-head center" data-reveal>
+        <p class="eyebrow"><span class="time">Night</span> Free and Pro</p>
+        <h2 id="plans-title" class="display">Free, always. Pro if you want more.</h2>
+      </div>
+      <img class="night-scene" src="assets/img/scene-pro.webp" width="900" height="397" loading="lazy" alt="" data-reveal>
+      <div class="plans" data-reveal>
+        <div class="plan">
+          <h3>Free</h3>
+          <p>The whole Quran and every translation, all four Reading Lanes, prayer times and
+            reminders, Qibla, the Hijri calendar, Duas, Hadith, the 99 Names, Tasbih, Zakat,
+            recite to find and follow along, your revision plan, every Juz 'Amma check, and one
+            of every widget.</p>
+          <p class="plan-foot">Nothing free today will move behind a paywall.</p>
+        </div>
+        <div class="plan plan-pro">
+          <h3>Ayath Pro <span class="pill">Optional</span></h3>
+          <p>Unlimited Hifz Coach checks across the Quran and your private list of words to
+            revisit. Every widget design, more themes, share card designs and private reading
+            insights.</p>
+          <p class="plan-foot">Google Play shows the price and any free trial before you start.
+            Cancel anytime in Google Play. Can't afford it?
+            <a href="support/#cant-afford">Write to us for a free code.</a></p>
+        </div>
+      </div>
+
+      <div class="langs" data-reveal>
+        <p class="eyebrow">Ten languages</p>
+        <p class="lang-line">Read Ayath in <span class="lang-word" data-langs aria-hidden="true">English</span><span class="sr-only">English, Arabic, Urdu, Hindi, Bengali, Malayalam, Kannada, Indonesian, Turkish and French.</span></p>
+        <p class="lang-list">English · العربية · اردو · हिन्दी · বাংলা · മലയാളം · ಕನ್ನಡ · Bahasa Indonesia · Türkçe · Français</p>
+      </div>
+
+      <div class="faq" id="faq" data-reveal>
+        <h2 class="display small">Questions</h2>
+        <details><summary>Is Ayath free?</summary><p>Yes. The whole Quran and every translation, prayer times and reminders, Qibla, duas, hadith, Tasbih, your revision plan, every Juz 'Amma Hifz Coach check and one of every widget are free. Ayath Pro is optional.</p></details>
+        <details><summary>Does Ayath work offline?</summary><p>Yes. Reading, prayer times, Qibla, duas and Hifz Coach checks work without the internet. Ayath goes online only when you stream or save a recitation, download the speech model once, or buy Pro through Google Play.</p></details>
+        <details><summary>Is my voice recorded or uploaded?</summary><p>No. Hifz Coach compares your recitation with the Quran text using a speech model on your phone. Your voice is held in memory only for that check and is never saved, uploaded or shared.</p></details>
+        <details><summary>Does Hifz Coach check tajweed?</summary><p>No. It is a reading aid that shows which words to check again. Your teacher and the mushaf remain the authority.</p></details>
+        <details><summary>When can I get Ayath?</summary><p>Ayath is coming soon to Google Play for Android. To join the early test, <a href="mailto:olivelampstudio@gmail.com?subject=Ayath%20early%20test">email us</a> with the Google account you use on Google Play.</p></details>
+      </div>
+
+      <div class="final-cta" data-reveal>
+        <h2 class="display">Be one of the first to recite with Ayath.</h2>
+        <p>Join the early test on Google Play. Send us the Google account you use on Play and we
+          will add you.</p>
+        <a class="btn btn-gold" href="mailto:olivelampstudio@gmail.com?subject=Ayath%20early%20test">Join the early test</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer tone-dark">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="./"><img src="assets/img/emblem.webp" alt="" width="40" height="40"><span>Ayath</span></a>
+      <p>Ayath is made by Olivelamp Studio.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="privacy/">Privacy policy</a>
+      <a href="support/">Support</a>
+      <a href="mailto:olivelampstudio@gmail.com">olivelampstudio@gmail.com</a>
+    </nav>
+    <p class="fine">Quran text, translations, hadith and dua text come from openly published
+      sources, shown with attribution. Full credits and licences are in the app's About &amp;
+      Credits screen. This site uses no cookies, no analytics and no third-party requests.</p>
+  </div>
+</footer>
+</body>
+</html>

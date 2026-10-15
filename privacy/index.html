@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Privacy Policy · Ayath</title>
+<meta name="description" content="How Ayath handles your data: offline by default, no account, no analytics, no advertising, and your voice never leaves your phone.">
+<link rel="canonical" href="https://olivelampstudio.github.io/ayath/privacy/">
+<meta name="theme-color" content="#10163F">
+<meta name="color-scheme" content="light dark">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ayath privacy policy">
+<meta property="og:description" content="Offline by default, no account, no analytics, no advertising. Your voice never leaves your phone.">
+<meta property="og:url" content="https://olivelampstudio.github.io/ayath/privacy/">
+<meta property="og:image" content="https://olivelampstudio.github.io/ayath/assets/og-image.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="../assets/icon-32.png">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preload" href="../assets/fonts/cormorant-garamond-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/site.css">
+<script>document.documentElement.classList.add("js")</script>
+<script defer src="../assets/site.js"></script>
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
+  {"@type": "ListItem", "position": 1, "name": "Ayath", "item": "https://olivelampstudio.github.io/ayath/"},
+  {"@type": "ListItem", "position": 2, "name": "Privacy policy", "item": "https://olivelampstudio.github.io/ayath/privacy/"}
+]}
+</script>
+</head>
+<body class="page-doc">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar" data-topbar>
+  <div class="topbar-inner">
+    <a class="brand" href="../" aria-label="Ayath home"><img src="../assets/img/emblem.webp" alt="" width="40" height="40"><span>Ayath</span></a>
+    <nav class="nav" id="site-nav" aria-label="Main">
+      <a href="../#hifz">Hifz Coach</a>
+      <a href="../#quran">Quran</a>
+      <a href="../#prayer">Prayer</a>
+      <a href="../privacy/" aria-current="page">Privacy</a>
+      <a href="../support/">Support</a>
+    </nav>
+    <a class="topbar-cta" href="mailto:olivelampstudio@gmail.com?subject=Ayath%20early%20test">Join the test</a>
+    <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" data-menu>
+      <span class="sr-only">Menu</span><span class="menu-bars" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+<section class="doc-hero">
+  <div class="wrap">
+    <p class="eyebrow">Privacy policy</p>
+    <h1>Your reading and your voice stay with you.</h1>
+    <p>Effective date: 15 October 2026. Wherever this says "we" or "the app", that means Olivelamp
+      Studio, the developer of Ayath.</p>
+  </div>
+</section>
+<main class="doc" id="main">
+  <div class="wrap">
+  <h2>Short version</h2>
+  <p>Ayath's core reading and prayer features work offline. It has no account
+  system, no analytics, no advertising, and no server of its own. Prayer settings,
+  Tasbih counts, Khatam progress, Zakat estimates and downloaded content are stored
+  on your device. Optional online recitation sends a recording request to
+  MP3Quran and its audio CDN; those providers receive the network request,
+  including your IP address, requested recording and request time. Optional
+  Google Drive backup and Google Play purchases use Google's services as
+  described below. Ayath stores your Pro entitlement locally.</p>
+
+  <h2>What the app accesses, and why</h2>
+  <ul>
+    <li><strong>Location (approximate).</strong> Used only to calculate prayer times and
+      the Qibla direction for where you are. Resolved in memory each time it's needed;
+      not stored with any identifier, not sent anywhere.</li>
+    <li><strong>Microphone.</strong> Used only when you start "Recite to find" or a Hifz
+      Coach check. The app listens to your recitation and compares it with the Quran text
+      using a speech model that runs on your device. Your voice is held in memory only for
+      that check: it is never saved as a recording, never uploaded, never used to train any
+      model, and never shared with anyone, including us. Hifz Coach keeps only the result
+      you see (for example, which words to check again) on your device.</li>
+    <li><strong>Notifications.</strong> If you turn them on, the app can show prayer-time
+      reminders, an optional lock-screen prayer notification, a daily Dua/Hadith
+      notification, a reading reminder after a prayer you choose, and a reminder before a
+      Pro free trial ends. All are scheduled and shown entirely on your device.</li>
+    <li><strong>Internet access.</strong> The app is offline-first. It only reaches the
+      internet for a few things, all of which you start yourself or which are a normal
+      part of a purchase you make: streaming a recitation you select or saving an individual surah from MP3Quran
+      and its approved audio CDN (no automatic full-pack download); downloading the
+      optional offline speech model used by "Recite to find" and Hifz Coach, once, the
+      first time you turn either on, from the model's public release on GitHub (which
+      receives the network request, including your IP address and request time); and, if you buy Ayath Pro,
+      Google Play Billing talking to Google's own servers to show prices and process the
+      purchase (see "Ayath Pro purchases" below). Recitation providers receive your
+      IP address, requested recording and request time; see
+      <a href="https://www.mp3quran.net/eng/privacy">MP3Quran's privacy and permission notice</a>.
+      The speech model is checked against its pinned checksum. Recitation downloads
+      preserve the original bytes and receive a local SHA-256 digest, checked before
+      offline playback. This detects changes to the saved file; it is not a
+      publisher-supplied checksum or recording certification. Recitation requests
+      include no prayer history, notes, microphone recordings or reading progress.</li>
+    <li><strong>Optional backup, only if you turn it on.</strong> Backup &amp; restore (in
+      Me and in Settings &rarr; Content &amp; data) lets you sign in with your own Google
+      account so the app can save a copy of your progress &mdash; reading positions,
+      bookmarks, notes, plans, Tasbih/tracking/Zakat/recitation history, preferences,
+      widget styles and notification toggles &mdash; to your own Google Drive. It never
+      includes Quran/Hadith/Dua text itself, downloaded content packs or audio, or
+      anything specific to your device. This is opt-in and never required; the onboarding
+      card offering it has a clear Skip. The backup goes into a hidden, app-only folder in
+      <em>your</em> Drive (Google's <code>drive.appdata</code> scope) &mdash; it does not
+      appear in your regular Drive files, and no other app can see it.
+      <strong>We do not receive it.</strong> There is no server of ours involved anywhere
+      in this feature; Google is your own storage provider, acting on your account under
+      its own terms. Google Sign-In is used solely to authorize this backup &mdash; it
+      does not create an account with us. Restoring checks a version number and checksum
+      first and refuses a file that fails that check; the app also keeps one automatic
+      local copy of what a restore is about to replace, on your own device, so
+      "Undo last restore" can put it back. Turn off auto-backup, delete the Drive copy, or
+      sign out any time from the Backup &amp; restore screen.</li>
+  </ul>
+
+  <h2>Ayath Pro purchases, handled by Google Play</h2>
+  <p>Ayath Pro (monthly or yearly, with a free trial when Google Play offers you one;
+  the Pro screen shows its length and the price before you start) is entirely optional and is sold through <strong>Google Play's own billing system</strong>,
+  not by us directly:</p>
+  <ul>
+    <li>When you tap to buy, Google Play shows you the price, collects your payment method
+      and processes the transaction. <strong>Ayath never sees or stores your card number,
+      bank details or any other payment information</strong> &mdash; that entire exchange
+      happens between you and Google.</li>
+    <li>What Ayath itself stores, only on your device, is the fact that a purchase exists:
+      which product you bought (monthly, yearly or lifetime) and the date it was last
+      confirmed with Google Play. This is what lets Pro keep working for up to 7 days if
+      you briefly lose your internet connection, without asking Google every single time
+      the app opens.</li>
+    <li>Ayath asks Google Play, not a server of ours, whether your purchase is still
+      valid. There is no purchase database of ours anywhere &mdash; Google Play is the
+      sole record of what you bought, and you can view or manage your subscription any
+      time from Google Play's own "Subscriptions" page (also linked from inside the app's
+      Pro screen).</li>
+    <li><strong>Restore purchases</strong> (also on the Pro screen) simply asks Google Play
+      again which of your purchases apply to this install &mdash; useful after
+      reinstalling the app or switching devices signed into the same Google account. It
+      does not involve us.</li>
+    <li>Cancelling, refunds and payment disputes are handled entirely through Google
+      Play's own subscription management and support, per Google's own terms &mdash;
+      Ayath has no separate billing relationship with you to cancel.</li>
+  </ul>
+
+  <h2>Sharing, feedback and the optional survey</h2>
+  <ul>
+    <li><strong>Share links.</strong> When you share Ayath or a card from it, the Google
+      Play link carries a few fixed words naming where it was shared from (for example
+      <code>utm_campaign=card_ayah</code>). Google Play uses them to count visits and
+      installs by link. They contain nothing about you.</li>
+    <li><strong>Feedback and the optional survey.</strong> "Feedback &amp; support" and,
+      about two weeks after installing, an optional three-question survey in Me let you
+      write to us. Your answers stay on your device until you tap Send, which opens a draft
+      in your own email app; nothing is sent unless you send that email. If you do, we
+      receive what you wrote and your email address, and use them only to reply and to
+      improve Ayath.</li>
+  </ul>
+
+  <h2>What we do not do</h2>
+  <ul>
+    <li>No account or sign-in of any kind is required to use the app, including Ayath
+      Pro. The only sign-in anywhere in the app is the optional Google Sign-In described
+      above, used solely to authorize backup to your own Drive — it does not create an
+      account with us, and buying Pro never requires it.</li>
+    <li>No analytics, crash reporting, or advertising SDKs of any kind are built into the app.</li>
+    <li>No personal information (name, email, contacts, etc.) is collected by the app,
+      because it never asks for it. If you choose to email us from your own email app, we
+      receive that email (see above). Google Play, not Ayath, collects whatever it needs to
+      process a Pro purchase, under Google's own privacy policy.</li>
+    <li>No data is sold or rented. User-requested recitation, backup and purchases
+      communicate with the providers described above; recitation requests do not
+      include your local progress, notes or microphone audio.</li>
+    <li>No automatic, silent backup of app data to any cloud account: the app opts out of
+      Android's own OS-level auto-backup. The only cloud backup that ever happens is the
+      optional, off-by-default one described above, and only after you sign in yourself.</li>
+  </ul>
+
+  <h2>Data storage and deletion</h2>
+  <p>Everything the app remembers (settings, Tasbih/Khatam progress, downloaded packs,
+  and — if you bought Pro — which product and when it was last confirmed) is stored
+  locally on your device. You can remove it at any time by clearing the app's storage
+  or uninstalling it — there is no server-side copy of ours to separately delete. If you
+  turned on the optional Google Drive backup, that copy lives only in your own Drive;
+  delete it any time with "Delete cloud backup" in the app's Backup &amp; restore screen,
+  or from your own Google Account. Your Google Play purchase history lives in your
+  Google account and is managed there, independent of the app.</p>
+
+  <h2>Religious source text</h2>
+  <p>Quran text, translations, Hadith and Dua text bundled with the app come from
+  permission-cleared sources with recorded provenance (see the in-app "About &amp;
+  Credits" screen). This policy covers your privacy, not licensing.</p>
+
+  <h2>Children</h2>
+  <p>The app is not directed at children and does not knowingly collect any data from
+  anyone, including children, because it does not collect personal data from any user.
+  Ayath Pro purchases require a Google Play account capable of making purchases,
+  governed by Google Play's own age and payment policies.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If this policy changes, the effective date above will be updated and the new
+  version posted at the same address.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy:
+    <a href="mailto:olivelampstudio@gmail.com">olivelampstudio@gmail.com</a>.
+    This policy is published at <a href="https://olivelampstudio.github.io/ayath/privacy/">https://olivelampstudio.github.io/ayath/privacy/</a>.
+  </p>
+  </div>
+</main>
+<footer class="site-footer tone-dark">
+  <div class="wrap footer-grid">
+    <div>
+      <a class="brand" href="../"><img src="../assets/img/emblem.webp" alt="" width="40" height="40"><span>Ayath</span></a>
+      <p>Ayath is made by Olivelamp Studio.</p>
+    </div>
+    <nav aria-label="Footer">
+      <a href="../">Home</a>
+      <a href="../privacy/">Privacy policy</a>
+      <a href="../support/">Support</a>
+      <a href="mailto:olivelampstudio@gmail.com">olivelampstudio@gmail.com</a>
+    </nav>
+    <p class="fine">This site uses no cookies, no analytics and no third-party requests.</p>
+  </div>
+</footer>
+</body>
+</html>

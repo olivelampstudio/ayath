@@ -1,0 +1,17 @@
+# Ayath
+
+> Ayath is a calm, offline Quran app for Android by Olivelamp Studio. It offers page-by-page mushaf reading, Hifz Coach (recite with the text hidden and see which words to check again, checked by a speech model on the phone), prayer times and Qibla calculated on the phone, daily duas and home-screen widgets. No ads, no account, no analytics. Coming soon to Google Play.
+
+Key facts:
+- Platform: Android (Google Play, coming soon). Ten languages: English, Arabic, Urdu, Hindi, Bengali, Malayalam, Kannada, Indonesian, Turkish, French.
+- Hifz Coach (beta) works offline. The voice is held in memory only for the check and is never saved, uploaded or shared. It is a reading aid, not a judgement of tajweed.
+- Free: the whole Quran and translations, four Reading Lanes (Khatam, Quick Surah, Study, Memorization), prayer times and reminders, Qibla, Hijri calendar, duas, hadith, Tasbih, Zakat estimate, revision plan, every Juz 'Amma Hifz check and one of every widget.
+- Ayath Pro (optional, via Google Play): unlimited Hifz Coach checks, every widget design, more themes, share card designs and private reading insights. Free codes on request for anyone who cannot afford it.
+- Religious text comes from openly published sources with attribution; the app never edits sacred text.
+
+## Pages
+- [Home](https://olivelampstudio.github.io/ayath/): what Ayath does, free and Pro, questions
+- [Support](https://olivelampstudio.github.io/ayath/support/): help with Hifz Coach, prayer times, Pro and data
+- [Privacy policy](https://olivelampstudio.github.io/ayath/privacy/): what the app accesses and why
+
+Contact: olivelampstudio@gmail.com
