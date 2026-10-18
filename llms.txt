@@ -4,7 +4,7 @@
 
 Key facts:
 - Platform: Android (Google Play, coming soon). Ten languages: English, Arabic, Urdu, Hindi, Bengali, Malayalam, Kannada, Indonesian, Turkish, French.
-- Hifz Coach (beta) works offline. The voice is held in memory only for the check and is never saved, uploaded or shared. It is a reading aid, not a judgement of tajweed.
+- Hifz Coach (beta) works offline. The voice is held in memory only for the check and is not saved, uploaded or shared. It is a reading aid, not a judgement of tajweed.
 - Free: the whole Quran and translations, four Reading Lanes (Khatam, Quick Surah, Study, Memorization), prayer times and reminders, Qibla, Hijri calendar, duas, hadith, Tasbih, Zakat estimate, revision plan, every Juz 'Amma Hifz check and one of every widget.
 - Ayath Pro (optional, via Google Play): unlimited Hifz Coach checks, every widget design, more themes, share card designs and private reading insights. Free codes on request for anyone who cannot afford it.
 - Religious text comes from openly published sources with attribution; the app never edits sacred text.
